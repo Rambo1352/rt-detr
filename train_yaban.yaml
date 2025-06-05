@@ -1,0 +1,14 @@
+path: yaban
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 10
+names: ['red2', 'red3_close', 'red3_open', 'standby', 'white_link', 'white_nolink', 'yellow2', 'yellow2_nolink', 'yellow3_close', 'yellow3_open']
+
+roboflow:
+  workspace: zibing-meng-iccab
+  project: yaban
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zibing-meng-iccab/yaban/dataset/6

@@ -1,0 +1,15 @@
+
+path: blct
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 16
+names: ['AD', 'AirSweeper', 'BombTower', 'Canon', 'ClanCastle', 'Eagle', 'Inferno', 'KingPad', 'Mortar', 'QueenPad', 'RcPad', 'Scattershot', 'TH13', 'WardenPad', 'WizzTower', 'Xbow']
+
+roboflow:
+  workspace: find-this-base
+  project: clash-of-clans-vop4y
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/find-this-base/clash-of-clans-vop4y/dataset/5

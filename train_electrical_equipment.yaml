@@ -1,0 +1,14 @@
+path: electrical_equipment
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 13
+names: ['ABB', 'Chint', 'Delixi', 'Eaton', 'Gewiss', 'Hager', 'IKEPE', 'Legrand', 'MMerlin Gerin', 'Merlin Gerin', 'Niglon', 'Schneider', 'Siemens']
+
+roboflow:
+  workspace: denver-xqjti
+  project: electrical-equipment-hjso8
+  version: 22
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/denver-xqjti/electrical-equipment-hjso8/dataset/22

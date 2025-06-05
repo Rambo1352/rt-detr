@@ -1,0 +1,14 @@
+path: insulator_fault
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['broken disc', 'broken glass', 'insulator', 'pollution-flashover']
+
+roboflow:
+  workspace: finalyear-project-46ptu
+  project: insulator-fault-detection-v1ewr
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/finalyear-project-46ptu/insulator-fault-detection-v1ewr/dataset/2
